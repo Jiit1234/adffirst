@@ -1,0 +1,9 @@
+{
+	"name": "jitufirstadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6c52631d-7a6b-4976-8753-f2974c616ec5",
+		"tenantId": "e74e0a39-af90-488a-9488-07c6350965e6"
+	}
+}
