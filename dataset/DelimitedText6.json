@@ -1,0 +1,24 @@
+{
+	"name": "DelimitedText6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservices_jitustorageaccount001",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee.csv",
+				"folderPath": "input",
+				"container": "jitucontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
